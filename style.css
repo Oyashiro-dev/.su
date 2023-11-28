@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Flexi_IBM_VGA";
+  src: url("Flexi_IBM_VGA_False.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: Flexi_IBM_VGA;
+  margin: 0%;
+}
+
+.twi {
+  float: inline-start;
+  width: 22px;
+  padding: 2px;
+}
+
+.tg {
+  float: inline-start;
+  width: 22px;
+  padding: 2px;
+  padding-right: 4px;
+}
+
+.vk {
+  float: inline-start;
+  width: 22px;
+  padding-right: 2px;
+  padding-top: 4px;
+}
+
+.yt {
+  float: inline-start;
+  width: 22px;
+  padding-right: 4px;
+  padding-top: 4px;
+}
+
+.inst {
+  float: inline-start;
+  width: 22px;
+  padding-right: 4px;
+}
+
+.bst {
+  float: inline-start;
+  width: 18px;
+  padding-right: 4px;
+}
+
+.stm {
+  float: inline-start;
+  width: 18px;
+  padding-top: 2px;
+  padding-right: 4px;
+}
+
+.itc {
+  float: inline-start;
+  width: 18px;
+  padding-top: 2px;
+  padding-right: 4px;
+}
+
+.gp {
+  float: inline-start;
+  width: 18px;
+  padding-top: 2px;
+  padding-right: 4px;
+}
+
+.gj {
+  float: inline-start;
+  width: 18px;
+  padding-top: 2px;
+  padding-right: 4px;
+}
+
+.ds {
+  float: inline-start;
+  width: 22px;
+  padding-right: 3px;
+  padding-top: 2px;
+}
+
+#logos {
+  float: inline-start;
+  height: 35px;
+  padding-right: 15px;
+}
+
+form {
+  display: inline;
+}
+
+header {
+  position: fixed;
+  align-self: center;
+  font-size: 100%;
+  text-align: center;
+  margin-bottom: auto;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;
+  background-color: whitesmoke;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  align-self: center;
+  font-size: 100%;
+  text-align: center;
+  margin-top: auto;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: whitesmoke;
+}
+
+#landing {
+  position: fixed;
+  padding: 10%;
+  margin: auto;
+  background-color: rgba(245, 245, 245, 0.5);
+  align-self: center;
+  text-align: center;
+  top: 30%;
+}
+
+.fthd {
+  color: #513bce;
+  font-size: 20px;
+}
+
+.btn {
+  color: #513bce;
+  font-size: 30px;
+  width: 325px;
+  height: 50px;
+}
+
+.mobile {
+  border: 2px violet solid;
+  background-color: gainsboro;
+  padding-left: 25%;
+  padding-right: 25%;
+  align-content: center;
+}
+
+a:link {
+  color: #513bce;
+}
+
+a:hover {
+  color: #7762ff;
+}
+
+a:active {
+  color: #f7333f;
+}
+
+a:visited {
+  color: #513bce;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 544px), (orientation: landscape) {
+  .brbr {
+    display: none;
+  }
+
+  footer {
+    font-size: 100%;
+    text-align: left;
+    margin-top: auto;
+    align-self: center;
+    background-color: whitesmoke;
+  }
+
+  header {
+    font-size: 100%;
+    text-align: left;
+    margin-bottom: auto;
+    align-self: center;
+    display: inline;
+    background-color: whitesmoke;
+  }
+
+  #landing {
+    display: none;
+  }
+
+  .bgvideo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 75%;
+    min-height: 75%;
+    z-index: -1;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .bgvideo {
+    align-self: center;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  .mob {
+    display: none;
+  }
+}
