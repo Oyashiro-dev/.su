@@ -147,7 +147,7 @@ footer {
 
 #landing {
   position: absolute;
-  top:  50%;
+  top:  60%;
   left: 50%;
   transform: translate(-50%,-50%);
   display: flexbox;
@@ -166,8 +166,8 @@ footer {
 .btn {
   color: #513bce;
   font-size: 25px;
-  width: 175px;
-  height: 30px;
+  width: 225px;
+  height: 45px;
 }
 
 .mobile {
