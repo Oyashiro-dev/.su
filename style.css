@@ -8,6 +8,7 @@
 * {
   font-family: Flexi_IBM_VGA;
   margin: 0%;
+  padding: 0%;
 }
 
 body {
@@ -28,80 +29,84 @@ button {
   float: inline-start;
   width: 22px;
   padding: 2px;
+  padding-left: 0px;
 }
 
 .tg {
   float: inline-start;
   width: 22px;
   padding: 2px;
-  padding-right: 4px;
+  padding-left: 0px;
 }
 
 .vk {
   float: inline-start;
   width: 22px;
-  padding-right: 2px;
-  padding-top: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .yt {
   float: inline-start;
   width: 22px;
-  padding-right: 4px;
   padding-top: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .inst {
   float: inline-start;
   width: 22px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .bst {
   float: inline-start;
   width: 18px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .stm {
   float: inline-start;
   width: 18px;
-  padding-top: 2px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .itc {
   float: inline-start;
   width: 18px;
-  padding-top: 2px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .gp {
   float: inline-start;
   width: 18px;
-  padding-top: 2px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .gj {
   float: inline-start;
   width: 18px;
-  padding-top: 2px;
-  padding-right: 4px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 .ds {
   float: inline-start;
   width: 22px;
-  padding-right: 3px;
-  padding-top: 2px;
+  padding: 2px;
+  padding-left: 0px;
 }
 
 #logos {
   float: inline-start;
-  height: 35px;
-  padding-right: 15px;
+  height: 25px;
+  padding: 5px;
 }
 
 form {
