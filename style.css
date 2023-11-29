@@ -10,6 +10,20 @@
   margin: 0%;
 }
 
+body {
+  background-image: url("bkfn.png");
+}
+
+button {
+  padding: 0%;
+  margin: 0%;
+}
+
+.mob {
+  display: inline;
+  margin: 0;
+}
+
 .twi {
   float: inline-start;
   width: 22px;
@@ -127,13 +141,16 @@ footer {
 }
 
 #landing {
-  position: fixed;
-  padding: 10%;
-  margin: auto;
-  background-color: rgba(245, 245, 245, 0.5);
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flexbox;
+  padding: 2%;
+  margin: 0%;
+  background-color: rgba(245, 245, 245, 0.160);
   align-self: center;
   text-align: center;
-  top: 30%;
 }
 
 .fthd {
@@ -143,9 +160,9 @@ footer {
 
 .btn {
   color: #513bce;
-  font-size: 30px;
-  width: 325px;
-  height: 50px;
+  font-size: 25px;
+  width: 175px;
+  height: 30px;
 }
 
 .mobile {
