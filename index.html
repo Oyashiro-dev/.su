@@ -53,23 +53,35 @@
 </head>
 
 <body>
-    <video autoplay loop muted class="bgvideo" id="bgvideo">
-        <source src="backvideo.webm" type="video/webm">
-        </source>
-    </video>
+    <span class="brbr">
+        <div class="background">
+            <img id="bkg" src="bg.png" />
+        </div>
+    </span>
+    <div class="mob">
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+            <source src="backvideo.webm" type="video/webm">
+            </source>
+        </video>
+    </div>
     <header>
-        <h2><img src="logos.png" alt="_" id="logos"> oyashiro.dev <span class="brbr"><br></span>
+        <h2><span class="mob"><img src="logos.png" alt="_" id="logos"></span> oyashiro.dev <span
+                class="brbr"><br></span>
             <form action="https://twitter.com/@Oyashiro_dev" target="_blank">
                 <button class="fthd"><img src="twitter.png" alt="_" class="twi"><span
                         style="color: #1faee9;">twitter</span></button>
             </form>
             <form action="https://t.me/oyashiro_dev" target="_blank">
                 <button class="fthd"><img src="tg.png" alt="_" class="tg"><span
-                        style="color: #0088cc;">telegram</span></button>
+                        style="color: #0088cc;">telegram</span></button><span class="brbr"><br></span>
             </form>
             <form action="https://vk.com/oyashirossama" target="_blank">
                 <button class="fthd"><img src="vk.png" alt="_" class="vk"><span
-                        style="color: #597da3;">vk</span></button><span class="brbr"><br></span>
+                        style="color: #597da3;">vk</span></button>
+            </form>
+            <form action="https://instagram.com/oyashiro.dev" target="_blank">
+                <button class="fthd"><img src="inst.png" alt="_" class="inst"><span
+                        style="color: #E4405F;">instagram</span></button><span class="brbr"><br></span>
             </form>
             <form action="https://discord.gg/7QRJJGWpMn" target="_blank">
                 <button class="fthd"><img src="disc.png" alt="_" class="ds"><span
@@ -79,11 +91,7 @@
                 <button class="fthd"><img src="ytb.png" alt="_" class="yt"><span
                         style="color: #c4302b;">youtube</span></button>
             </form>
-            <form action="https://instagram.com/oyashiro.dev" target="_blank">
-                <button class="fthd"><img src="inst.png" alt="_" class="inst"><span
-                        style="color: #E4405F;">instagram</span></button><span class="brbr"><br></span>
-            </form>
-            <span class="mob">&nbsp&nbsp&nbsp</span>email: oyashiro.dev@gmail.com
+            <span class="mob">&nbsp&nbsp&nbspemail: oyashiro.dev@gmail.com</span>
             <!-- <a href="">twitter</a>
             <a href="">telegram</a>
             <a href="">vk</a> <span class="brbr"><br></span>
@@ -110,14 +118,14 @@
             <a href="" class="mobile">VK</a> -->
     </div>
     <footer>
-        <h2> my games:
+        <h2><span class="mob"> my games: </span>
             <form action="https://store.steampowered.com/developer/oyashirodev" target="_blank">
                 <button class="fthd"><img src="stm.png" alt="_" class="stm"><span
-                        style="color: #1b2838;">steam</span></button><span class="brbr"><br></span>
+                        style="color: #1b2838;">steam</span></button>
             </form>
             <form action="https://play.google.com/store/apps/dev?id=6127457292425150870" target="_blank">
                 <button class="fthd"><img src="gpl.png" alt="_" class="gp"><span
-                        style="color: #34A853;">googleplay</span></button>
+                        style="color: #34A853;">googleplay</span></button><span class="brbr"><br></span>
             </form>
             <form action="https://oyashirodev.itch.io" target="_blank">
                 <button class="fthd"><img src="itch.png" alt="_" class="itc"><span
@@ -127,20 +135,23 @@
                 <button class="fthd"><img src="gjl.png" alt="_" class="gj"><span
                         style="color: #3b8772;">gamejolt</span></button><span class="brbr"><br></span>
             </form>
-            <span class="mob">&nbsp&nbsp&nbsp</span>support me:
+            <span class="mob">&nbsp&nbsp&nbspsupport me:</span>
             <form action="https://boosty.to/oyashirossama" target="_blank">
                 <button class="fthd"><img src="bst.png" alt="_" class="bst"><span
                         style="color: #ef7224;">boosty</span></button>
             </form>
             <form action="https://www.donationalerts.com/r/oyashiro_dev" target="_blank">
                 <button class="fthd"><span style="color: #85BB65;">donation</span></button>
-            </form>
+            </form><span class="brbr"><br></span>
             <p hidden id="item-to-copy">1P6wyZou9nByvqZEwo2tE45mAQqcavTDT1</p>
-            <button onclick="copyToClipboard()" class="fthd"><img src="btci.PNG" alt="_" class="cvi"><span style="color: #d3a006;">BTC</span></button>
+            <button onclick="copyToClipboard()" class="fthd"><img src="btci.PNG" alt="_" class="cvi"><span
+                    style="color: #d3a006;">BTC</span></button>
             <p hidden id="item-to-copy1">TX7WwLesuwcgUn1rC9t3bv6MqJsjSLWUH2</p>
-            <button onclick="copyToClipboard1()" class="fthd"><img src="usdti.PNG" alt="_" class="cvi"><span style="color: #03b196;">USDT</span></button>
+            <button onclick="copyToClipboard1()" class="fthd"><img src="usdti.PNG" alt="_" class="cvi"><span
+                    style="color: #03b196;">USDT</span></button>
             <p hidden id="item-to-copy2">UQAfhyxXBvqVDmYtJRxWNAMbQEi8xe-Kylo-mG2esM5-EDpb</p>
-            <button onclick="copyToClipboard2()" class="fthd"><img src="toni.PNG" alt="_" class="cvi"><span style="color: #0189d1;">TON</span></button>
+            <button onclick="copyToClipboard2()" class="fthd"><img src="toni.PNG" alt="_" class="cvi"><span
+                    style="color: #0189d1;">TON</span></button>
             <!-- <a href="">steam</a><span class="brbr"><br></span>
             <a href="">googleplay</a>
             <a href="">itch.io</a>
