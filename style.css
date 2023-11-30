@@ -8,105 +8,93 @@
 * {
   font-family: Flexi_IBM_VGA;
   margin: 0%;
-  padding: 0%;
-}
-
-body {
-  background-image: url("bkfn.png");
-}
-
-button {
-  padding: 0%;
-  margin: 0%;
-}
-
-.mob {
-  display: inline;
-  margin: 0;
 }
 
 .twi {
   float: inline-start;
   width: 22px;
   padding: 2px;
-  padding-left: 0px;
 }
 
 .tg {
   float: inline-start;
   width: 22px;
   padding: 2px;
-  padding-left: 0px;
+  padding-right: 4px;
 }
 
 .vk {
   float: inline-start;
   width: 22px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-right: 2px;
+  padding-top: 4px;
 }
 
 .yt {
   float: inline-start;
   width: 22px;
+  padding-right: 4px;
   padding-top: 4px;
-  padding: 2px;
-  padding-left: 0px;
 }
 
 .inst {
   float: inline-start;
   width: 22px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-right: 4px;
 }
 
 .bst {
   float: inline-start;
   width: 18px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-right: 4px;
+}
+
+.cvi {
+  float: inline-start;
+  width: 18px;
+  padding-right: 2px;
+  padding-top: 2px;
 }
 
 .stm {
   float: inline-start;
   width: 18px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-top: 2px;
+  padding-right: 4px;
 }
 
 .itc {
   float: inline-start;
   width: 18px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-top: 2px;
+  padding-right: 4px;
 }
 
 .gp {
   float: inline-start;
   width: 18px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-top: 2px;
+  padding-right: 4px;
 }
 
 .gj {
   float: inline-start;
   width: 18px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-top: 2px;
+  padding-right: 4px;
 }
 
 .ds {
   float: inline-start;
   width: 22px;
-  padding: 2px;
-  padding-left: 0px;
+  padding-right: 3px;
+  padding-top: 2px;
 }
 
 #logos {
   float: inline-start;
-  height: 25px;
-  padding: 5px;
+  height: 35px;
+  padding-right: 15px;
 }
 
 form {
@@ -119,9 +107,7 @@ header {
   font-size: 100%;
   text-align: center;
   margin-bottom: auto;
-  padding: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0.5%;
   display: block;
   background-color: whitesmoke;
 }
@@ -139,23 +125,18 @@ footer {
   font-size: 100%;
   text-align: center;
   margin-top: auto;
-  padding: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0.5%;
   background-color: whitesmoke;
 }
 
 #landing {
-  position: absolute;
-  top:  60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: flexbox;
-  padding: 2%;
-  margin: 0%;
-  background-color: rgba(245, 245, 245, 0.160);
+  position: fixed;
+  padding: 5%;
+  margin: auto;
+  background-color: rgba(245, 245, 245, 0.5);
   align-self: center;
   text-align: center;
+  top: 30%;
 }
 
 .fthd {
@@ -165,9 +146,9 @@ footer {
 
 .btn {
   color: #513bce;
-  font-size: 25px;
-  width: 225px;
-  height: 45px;
+  font-size: 30px;
+  width: 325px;
+  height: 50px;
 }
 
 .mobile {
